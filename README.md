@@ -13,3 +13,10 @@ This selenium binaries works with python 3.7. **NOT with 3.8 :(**
 If you don't want to create function and import this layer for each scraping purposes, please visit my project [pythonista-chromeless](https://github.com/umihico/pythonista-chromeless/)
 
 > This repositary forked from `umihico`'s repo.
+
+## Usage
+
+1. `chmod +x publish_selenium_layer.sh`
+2. run `publish_selenium_layer.sh` (at this time, uploaded on layer)
+3. add layer to your lambda function
+4. finished
