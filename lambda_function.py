@@ -2,7 +2,7 @@ from selenium import webdriver
 import json
 
 
-def selenium(event, context):
+def lambda_handler(event, context):
     chrome = Chrome()
     chrome.get('https://google.com')
     title = chrome.title
